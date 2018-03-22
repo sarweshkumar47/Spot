@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/AboutPageTitleTextView"
+            android:text="@string/app_summary" />
+
+        <TextView
+            style="@style/AboutPageContentTextView"
+            android:text="@string/app_description" />
+
+        <View style="@style/ViewLine" />
+
+        <TextView
+            style="@style/AboutPageContentTextView"
+            android:text="@string/version_name" />
+
+        <View style="@style/ViewLine" />
+
+        <TextView
+            style="@style/AboutPageTitleTextView"
+            android:text="@string/developer_info" />
+
+        <TextView
+            android:id="@+id/emailIdTextView"
+            style="@style/AboutPageContentTextViewWithDrawable"
+            android:drawableStart="@drawable/ic_email_black_24dp"
+            android:text="@string/developer_email_id" />
+
+        <View style="@style/ViewLine" />
+
+        <TextView
+            android:id="@+id/gitLinkTextView"
+            style="@style/AboutPageContentTextViewWithDrawable"
+            android:drawableStart="@drawable/ic_github_logo_black_24dp"
+            android:text="@string/github_url" />
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.AppBarLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/appBarLayout"
+    style="@style/AppBarLayout">
+
+    <android.support.design.widget.SubtitleCollapsingToolbarLayout
+        android:id="@+id/collapsingToolbarLayout"
+        style="@style/CollapsingToolbarLayout">
+
+        <RelativeLayout style="@style/CollapsingLayoutBackground">
+
+            <ImageView
+                android:id="@+id/profilePicImageView"
+                style="@style/AppBarProfilePicImageView"
+                android:src="@drawable/ic_person_white_48dp" />
+
+            <TextView
+                android:id="@+id/userNameTextView"
+                style="@style/AppBarUserNameTextView"
+                android:layout_below="@+id/profilePicImageView" />
+
+            <TextView
+                android:id="@+id/userEmailTextView"
+                style="@style/AppBarUserEmailTextView"
+                android:layout_below="@+id/userNameTextView" />
+        </RelativeLayout>
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            style="@style/AppToolbar" />
+
+    </android.support.design.widget.SubtitleCollapsingToolbarLayout>
+</android.support.design.widget.AppBarLayout>

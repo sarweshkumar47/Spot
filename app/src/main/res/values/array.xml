@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="logOutOptionsArray">
+        <item>delete_account</item>
+    </string-array>
+</resources>

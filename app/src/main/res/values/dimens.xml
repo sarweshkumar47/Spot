@@ -1,0 +1,80 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- activity_login.xml -->
+    <dimen name="login_logo_width">84dp</dimen>
+    <dimen name="login_logo_height">84dp</dimen>
+    <dimen name="login_logo_padding">16dp</dimen>
+
+    <!-- view_data_report_layout.xml -->
+    <dimen name="data_report_layout_margin">8dp</dimen>
+    <dimen name="data_report_layout_corner_radius">2dp</dimen>
+    <dimen name="data_report_layout_card_elevation">2dp</dimen>
+
+    <dimen name="data_report_layout_title_margin">16dp</dimen>
+    <dimen name="data_report_layout_title_margin_end">16dp</dimen>
+    <dimen name="data_report_layout_title_margin_start">16dp</dimen>
+    <dimen name="data_report_layout_title_margin_top">16dp</dimen>
+    <dimen name="data_report_layout_title_text_size">16sp</dimen>
+
+    <dimen name="data_report_layout_content_margin">16dp</dimen>
+    <dimen name="data_report_layout_content_text_size">14sp</dimen>
+
+    <dimen name="data_report_layout_grid_view_margin">16dp</dimen>
+    <dimen name="data_report_layout_grid_view_margin_bottom">16dp</dimen>
+    <dimen name="data_report_layout_grid_view_margin_end">16dp</dimen>
+    <dimen name="data_report_layout_grid_view_margin_start">16dp</dimen>
+
+    <dimen name="data_report_layout_image_view_width">42dp</dimen>
+    <dimen name="data_report_layout_image_view_height">42dp</dimen>
+    <dimen name="data_report_layout_image_view_margin_start">72dp</dimen>
+    <dimen name="data_report_layout_image_view_padding">8dp</dimen>
+
+    <dimen name="data_report_layout_report_type_text_size">12sp</dimen>
+    <dimen name="data_report_layout_report_type_margin_start">72dp</dimen>
+
+    <dimen name="data_report_layout_view_line_margin_end">16dp</dimen>
+    <dimen name="data_report_layout_view_line_margin_start">16dp</dimen>
+
+    <!-- fragment_maps.xml -->
+    <dimen name="firebase_connection_view_padding_bottom">8dp</dimen>
+    <dimen name="firebase_connection_view_padding_left">16dp</dimen>
+    <dimen name="firebase_connection_view_padding_right">16dp</dimen>
+    <dimen name="firebase_connection_view_padding_top">8dp</dimen>
+    <dimen name="firebase_connection_view_text_size">16sp</dimen>
+
+    <dimen name="location_button_width">42dp</dimen>
+    <dimen name="location_button_height">42dp</dimen>
+    <dimen name="location_button_elevation">4dp</dimen>
+    <dimen name="location_button_margin">10dp</dimen>
+    <dimen name="location_button_padding">8dp</dimen>
+
+    <dimen name="floating_action_button_elevation">12dp</dimen>
+    <dimen name="floating_action_button_margin">16dp</dimen>
+
+    <!-- fragment_about_page.xml layout styles-->
+    <dimen name="about_page_title_padding">16dp</dimen>
+    <dimen name="about_page_title_text_size">16sp</dimen>
+    <dimen name="about_page_content_drawable_padding">16dp</dimen>
+    <dimen name="about_page_content_padding">16dp</dimen>
+    <dimen name="about_page_content_text_size">16sp</dimen>
+
+    <!-- activity_main.xml layout styles-->
+    <dimen name="appbar_layout_height">330dp</dimen>
+    <dimen name="appbar_layout_elevation">4dp</dimen>
+    <dimen name="collapsing_toolbar_expanded_title_margin_end">64dp</dimen>
+    <dimen name="collapsing_toolbar_expanded_title_margin_start">48dp</dimen>
+    <dimen name="appbar_profile_pic_width">84dp</dimen>
+    <dimen name="appbar_profile_pic_height">84dp</dimen>
+    <dimen name="appbar_profile_pic_margin_bottom">16dp</dimen>
+    <dimen name="appbar_profile_pic_margin_start">16dp</dimen>
+    <dimen name="appbar_profile_pic_margin_top">80dp</dimen>
+    <dimen name="appbar_name_margin_start">84dp</dimen>
+    <dimen name="appbar_name_text_size">32sp</dimen>
+    <dimen name="appbar_email_margin_start">84dp</dimen>
+    <dimen name="appbar_email_text_size">20sp</dimen>
+    <dimen name="app_toolbar_elevation">4dp</dimen>
+
+</resources>
